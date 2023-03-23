@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  PACKAGE_NAME:
+  with_context:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

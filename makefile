@@ -9,15 +9,15 @@ install:
 venv: .venv
 
 test:
-	python -m unittest -v PACKAGE_NAME
-	python -m mypy -m PACKAGE_NAME
+	python -m unittest -v with_context
+	python -m mypy -m with_context
 
 lint:
-	python -m flake8 PACKAGE_NAME
-	python -m ufmt check PACKAGE_NAME
+	python -m flake8 with_context
+	python -m ufmt check with_context
 
 format:
-	python -m ufmt format PACKAGE_NAME
+	python -m ufmt format with_context
 
 release: lint test clean
 	flit publish
@@ -27,6 +27,3 @@ clean:
 
 distclean: clean
 	rm -rf .venv
-
-init:
-	@python init.py

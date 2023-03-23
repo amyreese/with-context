@@ -1,18 +1,18 @@
-# PROJECT_NAME
+# with-context
 
-PROJECT_DESCRIPTION
+Context managers as decorators
 
-[![version](https://img.shields.io/pypi/v/PACKAGE_NAME.svg)](https://pypi.org/project/PACKAGE_NAME)
-[![license](https://img.shields.io/pypi/l/PACKAGE_NAME.svg)](https://github.com/GITHUB_USERNAME/PACKAGE_NAME/blob/main/LICENSE)
+[![version](https://img.shields.io/pypi/v/with_context.svg)](https://pypi.org/project/with_context)
+[![license](https://img.shields.io/pypi/l/with_context.svg)](https://github.com/amyreese/with_context/blob/main/LICENSE)
 
 Install
 -------
 
 ```shell-session
-$ pip install PACKAGE_NAME
+$ pip install with_context
 ```
 
 License
 -------
 
-PROJECT_NAME is copyright AUTHOR_NAME, and licensed under the MIT license.
+with-context is copyright Amethyst Reese, and licensed under the MIT license.
